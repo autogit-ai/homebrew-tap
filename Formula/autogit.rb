@@ -6,7 +6,7 @@ class Autogit < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://assets.autogit.ai/releases/v0.2.5/autogit-v0.2.5-aarch64-apple-darwin.tar.gz"
-      sha256 "9eb52ee46c7ab5ea4ca0982415da99fded1b7d7354f75e50847bdae6cb44eb66"
+      sha256 "a437993d7b7f7b9356e284024a3d376e35c298fed12590eafcd6081a1439c907"
     end
   end
 
