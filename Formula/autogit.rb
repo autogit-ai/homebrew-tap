@@ -1,12 +1,12 @@
 class Autogit < Formula
   desc "Blazing fast terminal-ui for git with AI superpowers"
   homepage "https://github.com/autogit-ai/autogit"
-  version "1.1.27"
+  version "1.1.28"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://assets.autogit.ai/releases/v1.1.27/autogit-v1.1.27-aarch64-apple-darwin.tar.gz"
-      sha256 "e42dcef889874b86824983e2fd4c607e6db5b3c5f08e9c513033eb665fa09d6f"
+      url "https://assets.autogit.ai/releases/v1.1.28/autogit-v1.1.28-aarch64-apple-darwin.tar.gz"
+      sha256 "e32db29db8ec3257922a591d6c7bcd250e37a6b73f02e087e5fcbccbdcfa797d"
     end
   end
 
